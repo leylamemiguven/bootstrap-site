@@ -1,5 +1,6 @@
 # bootstrap-site
 This website was created to showcase my professional work and to be shared with potential employers. 
+
 Homepage
 ![Screenshot (95)](https://github.com/user-attachments/assets/c12acae7-1635-4dfa-9010-6ee25b50a6ba)
 About Me
