@@ -817,4 +817,25 @@ blockquote {
     padding: 250px 0 150px;
     text-align: center;
   }
+  .filter-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: .5rem;            /* space between buttons */
+  }
+  .filter-bar .btn {
+    width: 100%;
+    text-align: left;      /* optional: feels like a menu */
+    padding: .6rem .9rem;  /* a bit larger touch target */
+  }
+  .github-card,
+  .instagram-media {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  .hover-wrapper img,
+  .hover-wrapper iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 }
