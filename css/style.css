@@ -806,6 +806,10 @@ blockquote {
 }
 /*# sourceMappingURL=style.css.map */
 
+.github-card{
+  height:7em;
+}
+
 @media (max-width: 768px) {
   .intro {
     font-size: 2.5em !important;
