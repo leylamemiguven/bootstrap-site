@@ -845,6 +845,8 @@ blockquote {
 
   .persona-div{
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   }
   .witchcraft-website-img{
   width:100% !important;
@@ -874,6 +876,8 @@ h4{
 
 .persona-div{
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .witchcraft-website-img{
   width:50%;
@@ -921,3 +925,7 @@ h4{
 }
 
 /* / Witchcraft Website Page */
+
+.jellyfish{
+  padding: 1em;
+}

@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>DreamSeeker App</title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Creative Portfolio Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Themefisher Kross Template v1.0">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/chip.svg" />
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+  
+
+  <header class="navigation fixed-top">
+ <nav class="navbar navbar-expand-lg navbar-dark">
+    <!-- Chip svg taken from https://thenounproject.com/icon/technology-1526177/ -->
+    <a class="navbar-brand font-tertiary h3" href="index.html" style="font-size:1.3em;"><img src="images/chip.svg" alt="computer chip" style="width: 1em;"> LEYLA MEMIGUVEN</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="work.html">WORK</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  </header>
+
+<!-- page title -->
+<section class="page-title bg-primary position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="text-white font-tertiary">DreamSeeker App</h1>
+      </div>
+    </div>
+  </div>
+  <!-- background shapes -->
+  <img src="images/illustrations/page-title.png" alt="illustrations" class="bg-shape-1 w-100">
+  <img src="images/illustrations/leaf-pink-round.png" alt="illustrations" class="bg-shape-2">
+  <img src="images/illustrations/dots-cyan.png" alt="illustrations" class="bg-shape-3">
+  <img src="images/illustrations/leaf-orange.png" alt="illustrations" class="bg-shape-4">
+  <img src="images/illustrations/leaf-yellow.png" alt="illustrations" class="bg-shape-5">
+  <img src="images/illustrations/dots-group-cyan.png" alt="illustrations" class="bg-shape-6">
+  <img src="images/illustrations/leaf-cyan-lg.png" alt="illustrations" class="bg-shape-7">
+</section>
+<!-- /page title -->
+
+<!-- project -->
+<section class="section pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="project-div">
+        <div>
+          <p>For our User Interface Programming class, our final project goal was to create a graphical user interface app using the Python framework tkinter. The user experience was designed to help people record, keep track of, and analyze their dreams in the most comfortable way possible.</p>
+        </div>
+        <h4> General Concept</h1>
+          <p>DreamSeeker is a dream journaling app that allows users to record their dreams with the date and time, either through text input or speech-to-text for faster capture. This feature is intentional because people often forget their dreams quickly after waking up. To minimize this, users can create a journal entry and record their voice as they describe their dream instead of typing everything out.</p>
+          <p>For organization, users can color-code entries. For example, black can be assigned to nightmares and yellow to happy dreams. Users who want to analyze their dreams further can enter the key elements they saw, and the app will generate related images that they can arrange into a collage to create a visual pinboard of their dream. Users who want more control over the visual representation can also draw their dream and save their illustration in the journal.</p>
+          
+        <h4>Creating the Moodboard</h1>
+          <p>I created a moodboard in Figma using images collected from Pinterest to establish the theme and overall feel of the app. Since DreamSeeker is a dream journaling tool, it appeals to people who want to connect with their spiritual or creative side. The moodboard evokes feelings of wonder, awe, and fear, which reflect the wide range of emotions linked to different types of dreams and nightmares.</p>
+          <p>Overall, the moodboard depicts an out-of-body, surreal atmosphere that aligns with the visual pinboard feature of the app. This feature works by identifying nouns from the dream description and generating images so that users can visually represent what they saw. The app’s layout is intentionally simple, allowing users to add new dreams without navigating back to the homepage. The “Add Dream” page is accessible directly from the journal page for convenience.</p>
+          <img src="images/work/DreamSeeker App/dreamseeker_moodboard.avif" alt="moodboard of dreamy and nightmarish images"/>
+          <p class="image-label">Moodboard for the DreamSeeker App.</p>
+
+        <h4>Creating Information Architechture</h4>
+          <div class="persona-div">
+            <img class="witchcraft-website-img persona" src="images/work/DreamSeeker App/Dreamseeker ia.avif" alt="information architecture for the DreamSeeker app"/>
+            <p>The information architecture creates a streamlined flow where users never need to return to the homepage to add a new dream. The Add Dream page is available directly from the journal, reducing unnecessary navigation.</p>
+          </div>
+         
+        
+        <h4>Creating Wireframes</h4>
+        <p>I created low-fidelity wireframes as an initial exploration of the app's structure and user flow.</p>
+        <div class="persona-div">
+          <img class="witchcraft-website-img persona" src="images/work/DreamSeeker App/sketched_wireframes.avif" alt="image showing low fidelity wireframes for possible pages of the app"/>
+          <div>
+            <h5 class="persona-explanation">Homepage</h5>
+            <p class="persona-explanation">The homepage is simple and clearly presents two options: “My Journal” and “Add Dream.” The app's logo and name appear centered at the top, establishing the brand's identity.</p>
+            <h5 class="persona-explanation">My Journal</h5>
+            <p class="persona-explanation">The journal page displays a log of dreams that users can sort by date, title, or color. Color codes are assigned when recording the dream and can be customized based on how the user interprets the dream.</p>
+            <h5 class="persona-explanation">Dream Breakdown</h5>
+            <p class="persona-explanation">The Dream Breakdown page appears when a user selects a specific dream. It displays the dream title, description, visual pinboard, and the user's drawing. Users can edit the title, color code, description, and drawing, then save updates by tapping the pen icon.</p>
+            <h5 class="persona-explanation">Add Dream</h5>
+            <p class="persona-explanation">Users can add a dream either through the homepage or by clicking the plus icon at the top right of the journal page. The date is recorded automatically, while the title and description are required. Drawing the dream or assigning a color code is optional and can be edited later in the Dream Breakdown.</p>  
+          </div>
+          
+        </div>
+        
+
+        <h4>Logo Design</h4>
+          <div class="persona-div">
+            <img class="witchcraft-website-img persona jellyfish" src="images/work/DreamSeeker App/sketched_logo1.avif" alt="sketch 1 on paper of the dreamseeker app logo"/>
+            <img class="witchcraft-website-img persona jellyfish" src="images/work/DreamSeeker App/sketched_logo2.avif" alt="sketch 2 on paper of the dreamseeker app logo"/>
+            <img class="witchcraft-website-img persona jellyfish" src="images/work/DreamSeeker App/sketched_logo3.avif" alt="sketch 3 on paper of the dreamseeker app logo"/>
+          </div>
+          <p class="image-label">Sketches of the initial logo design.</p>
+          <p>I wanted the logo to reflect the dreamy, creative, and serene atmosphere of the app. While building my moodboard, I found an illustration of a floating jellyfish and thought it would work beautifully with a crescent moon. I sketched a few concepts by hand before recreating them in Adobe Illustrator.</p>
+          <p>At first, I experimented with placing the jellyfish upside down to create a surreal feeling, but it worked much better upright against the crescent moon.</p>
+          <p>In the final design, the floating jellyfish gives a calming, graceful impression, while the crescent moon and sparkles evoke nighttime. The colored version includes a subtle outer glow around the moon, which works best on darker backgrounds and enhances the sense of mystery and serenity. The typography, Freestyle Script, complements the curves of the illustration and adds an organic feel to the logo.</p>
+          <div class="persona-div">
+            <img class="witchcraft-website-img persona" src="images/work/DreamSeeker App/Artboard 1.avif" alt="image of finalized logo in day mode"/>
+            <img class="witchcraft-website-img persona" src="images/work/DreamSeeker App/DreamSeeker logo colored.avif" alt="image of finalized logo in night mode"/>
+          </div>
+          <p class="image-label">Finalized logos for the DreamSeeker app in day and night modes.</p>
+
+
+
+    
+      <h4>High Fidelity Wireframes</h4>
+        <div class="high-fidelity-wireframes">
+          <img class="witchcraft-website-img" src="images/work/DreamSeeker App/Homepage_day.avif" alt="Homepage in day mode"/>
+          <img class="witchcraft-website-img" src="images/work/DreamSeeker App/Homepage_night.avif" alt="Homepage in night mode"/>
+        </div> 
+        <div class="high-fidelity-wireframes">
+          <img class="witchcraft-website-img" src="images/work/DreamSeeker App/dreambreakdown_day.avif" alt="Dream Breakdown page in day mode"/>
+          <img class="witchcraft-website-img" src="images/work/DreamSeeker App/dreambreakdown_night.avif" alt="Dream Breakdown page in night mode"/>
+        </div> 
+        <p class="image-label">High fidelity wireframes in day and night mode of the Homepage and Dream Breakdown pages.</p>
+
+        <p>For the high-fidelity wireframes, I kept the design simple and offered both day and night modes. Users might wake up in the middle of the night to record a dream, and a bright interface can be uncomfortable, so the dark mode option creates a more soothing experience.</p>
+
+  </div>
+</section>
+<!-- /project -->
+
+
+
+<!-- contact -->
+<section class="section section-on-footer" data-background="images/backgrounds/bg-dots.png">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Contact Me</h2>
+      </div>
+      <div class="col-lg-8 mx-auto">
+        <div class="bg-white rounded text-center p-5 shadow-down">
+          <h4 class="mb-80">Contact Form</h4>
+          <form action="#" class="row">
+            <div class="col-md-6">
+              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4" required>
+            </div>
+            <div class="col-md-6">
+              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4" required>
+            </div>
+            <div class="col-12">
+              <textarea name="message" id="message" class="form-control px-0 mb-4"
+                placeholder="Type Message Here" required></textarea>
+            </div>
+            <div class="col-lg-6 col-10 mx-auto">
+              <button class="btn btn-primary w-100">send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /contact -->
+
+<!-- footer -->
+<footer class="bg-dark footer-section">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 contact-info">
+          <h5 class="text-light">Email</h5>
+          <p class="text-white paragraph-lg font-secondary">leylamemiguven@gmail.com</p>
+        </div>
+        <div class="col-md-4 contact-info">
+          <h5 class="text-light">Phone</h5>
+          <p class="text-white paragraph-lg font-secondary">437 992 7474</p>
+        </div>
+        <div class="col-md-4 contact-info">
+          <h5 class="text-light">LinkedIn</h5>
+          <a href="https://www.linkedin.com/in/leyla-memiguven-502908193" ><p class="text-white paragraph-lg font-secondary">/in/leyla-memiguven</p></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="border-top text-center border-dark py-5">
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- filter -->
+<script src="plugins/shuffle/shuffle.min.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+<script src="js/workscript.js"></script>
+
+</body>
+</html>
